@@ -34,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F20044C2C36D029006002AE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6F6076FC2C29B30F004A7878 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		6F6076EE2C29B30F004A7878 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +66,6 @@
 				6FA504762C2AFE9100DD8FF9 /* Core */,
 				6FA504752C2AFE8F00DD8FF9 /* Model */,
 				6FA504742C2AFE8800DD8FF9 /* Services */,
-				6F6076FC2C29B30F004A7878 /* ContentView.swift */,
 				6F6076FE2C29B311004A7878 /* Assets.xcassets */,
 				6F6077002C29B311004A7878 /* Preview Content */,
 			);
@@ -90,6 +97,7 @@
 		6FA504762C2AFE9100DD8FF9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				6F20044C2C36D029006002AE /* Root */,
 				6FA504792C2AFEF300DD8FF9 /* Authentication */,
 			);
 			path = Core;
